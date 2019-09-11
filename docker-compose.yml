@@ -1,7 +1,7 @@
 version: '2'
 services:
     postgres:
-        image: postgres:9.6.2
+        image: postgres:9.6-alpine
         environment:
             - "POSTGRES_PASSWORD=${B2SHARE_POSTGRESQL_PASSWORD}"
             - "POSTGRES_USER=${B2SHARE_POSTGRESQL_USER}"
